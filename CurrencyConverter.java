@@ -25,7 +25,7 @@ public class CurrencyConverter {
         Scanner scanner = new Scanner(System.in);
 
         // Prompt the user to enter the conversion rate
-        System.out.print("Enter the conversion rate from USD to INR: ");
+        System.out.print("Enter the CURRENT conversion rate from USD to INR: "); //cHANGE MADE HERE FOR BUILD AGAIN 
         double rate = scanner.nextDouble();
 
         // Create a CurrencyConverter object with the provided rate
